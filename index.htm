@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TraCo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/tc-shop/tc-logo.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo" id="banner">
+            <a href="#home" class="margin-bottom: 10% margin-top:10%">
+                <div class="w-25 h-3">
+                    <img src="img/tc-shop/tc-logo.png" alt="" class="w-25 h-3">
+                </div>
+            </a>
+        </div>
+        <div class=" menuToggle" id="menuToggle" onclick="toggleMenu();">
+        </div>
+        <div class="fw-bold text-">
+            <ul class="navigation">
+                <li><a href="#banner"></a></li>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#Coffee">COFFEE</a></li>
+                <li><a href="#tea">TEA</a></li>
+                <li><a href="#merchandise">MERCHANDISE</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+
+    </header>
+
+    <section class="banner" id="home">
+        <div class="fw-bold">
+            <div class="connectin-banner">
+                <div class="text1">Welcome to here</div>
+                <div class="text2">TraCo</div>
+                <div class="text3">Crafting Excellence,
+                    <br>
+                    <span>Supporting Locals</span>
+                    <br>
+                    <span class="typing"> Hallo, Wij zijn
+                        Occhio!</span>
+                </div>
+                <a href="https://store.megapixel.sg/store/traco-com/"><button class="button-learnmore"
+                        id="socail-media">Learn more</button></a>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <div class="status-title margin-top :100px">
+        <h1>OUR PRODUCT</h1>
+        <p>What we've done for people.</p>
+
+        <video height="720" loop autoplay muted controls id="vid">
+            <source src="/img/tc-shop/tc-vd.webm" type="video/mp4" />
+        </video>
+
+
+    </div>
+    <section class="Coffee" id="Coffee">
+        <div class="work-img">
+            <div class="status-title1">THE<span class="span-title"> COFFEE</span></div>
+
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-xl-3">
+                    <div class="card-team">
+
+                        <img src="img/tc-coffee/Dalat.jpeg" alt="Dalat Dream Protein Frappé" style="width:100%">
+
+                        <div class="container-work">
+                            <h2>Dalat Dream Protein Frappé<span class="nameteam"></span></h2>
+                            <p class="title">Indulge sensibly in our handcrafted Dalat Dream Protein Frappé. </p>
+                            <p></p><a href="https://store.megapixel.sg/product/dalat-dream-protein-frappe/"
+                                target="_blank"><button class="button">View</button></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-xl-3">
+                    <div class="card-team">
+                        <img src="img/tc-coffee/Healthful.jpeg" alt="Healthful Vietnamese Iced Coffee Bliss"
+                            style="width:100%">
+                        <div class="container-work">
+                            <h2>Healthful Vietnamese Iced Coffee Bliss<span class="nameteam"></span></h2>
+                            <p class="title">Indulge guilt-free in our Healthful Vietnamese Iced Coffee Bliss.</p>
+                            <p></p><a href="https://store.megapixel.sg/product/healthful-vietnamese-iced-coffee-bliss/"
+                                target="_blank"><button class="button">View</button></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-xl-3">
+                    <div class="card-team">
+                        <img src="img/tc-coffee/Revitalizing.jpeg" alt="Revitalizing Hanoi Horizon Cold Brew"
+                            style="width:100%">
+                        <div class="container-work">
+                            <h2>Revitalizing Hanoi Horizon Cold Brew<span class="nameteam"></span></h2>
+                            <p class="title">Revitalize your senses with our Revitalizing Hanoi Horizon Cold Brew.
+                            </p>
+                            <p></p><a href="https://store.megapixel.sg/product/revitalizing-hanoi-horizon-cold-brew/"
+                                target="_blank"><button class="button">View</button></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-xl-3">
+                    <div class="card-team">
+                        <img src="img/tc-coffee/tc-coffee-bean.png" alt="TraCo Coffee bean" style="width:100%">
+                        <div class="container-work">
+                            <h2>TraCo Coffee beans - Dark night<span class="nameteam"></span></h2>
+                            <p class="title">Embrace the rich tradition and exceptional quality in every cup. TraCo
+                                Coffee </p>
+                            <p></p><a href="https://store.megapixel.sg/product/tracol-coffee/" target="_blank"><button
+                                    class="button">View</button></a></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+    <br>
+    <section class="tea" id="tea">
+        <div class="work-img">
+            <div class="status-title2">THE<span class="span-title"> TEA</span></div>
+
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-xl-3">
+                    <div class="card-team">
+                        <img src="img/tc-tea/Anitoxidant.jpeg" alt="Antioxidant-Rich Jasmine Joy Sparkler"
+                            style="width:100%">
+                        <div class="container-work">
+                            <h2>Antioxidant-Rich Jasmine Joy Sparkler<span class="nameteam"></span></h2>
+                            <p class="title">Quench your thirst and boost your well-being with our Antioxidant-Rich
+                                Jasmine.</p>
+                            <p></p><a href="https://store.megapixel.sg/product/antioxidant-rich-jasmine-joy-sparkler/"
+                                target="_blank"><button class="button">View</button></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-xl-3">
+                    <div class="card-team">
+                        <img src="img/tc-tea/Nutrient.jpeg" alt="Nutrient-Rich Saigon Sunrise Tea Latte"
+                            style="width:100%">
+                        <div class="container-work">
+                            <h2>Nutrient-Rich Saigon Sunrise Tea Latte<span class="nameteam"></span></h2>
+                            <p class="title">Elevate your well-being with our Nutrient-Rich Saigon Sunrise Tea
+                                Latte.
+                            </p>
+                            <p></p><a href="https://store.megapixel.sg/product/nutrient-rich-saigon-sunrise-tea-latte/"
+                                target="_blank"><button class="button">View</button></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-xl-3">
+                    <div class="card-team">
+                        <img src="img/tc-tea/spiced.jpeg" alt="Spiced Pho-nomenal Chai Latte" style="width:100%">
+                        <div class="container-work">
+                            <h2>Spiced Pho-nomenal Chai Latte<span class="nameteam"></span></h2>
+                            <p class="title">Warm your soul with our handcrafted Spiced Pho-nomenal Chai Latte.</p>
+                            <p></p><a href="https://store.megapixel.sg/product/spiced-pho-nomenal-chai-latte/"
+                                target="_blank"><button class="button">View</button></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-xl-3">
+                    <div class="card-team">
+                        <img src="img/tc-tea/tc-tea-leav.jpeg" alt="Elderberry Lemon Balm" style="width:100%">
+                        <div class="container-work">
+                            <h2>TraCo Elderberry Lemon Balm<span class="nameteam"></span></h2>
+                            <p class="title">Tea is a popular aromatic beverage made from the leaves of the Camellia
+                                sinensis plant. </p>
+                            <p></p><a href="https://store.megapixel.sg/product/traco-tea-leaves/"
+                                target="_blank"><button class="button">View</button></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <br>
+    <section class="merchandise" id="merchandise">
+        <div class="work-img">
+            <div class="status-title2">THE<span class="span-title"> MERCHANDISE</span></div>
+
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-xl-3">
+                    <div class="card-team">
+                        <img src="img/tc-merchandise/merchandise-cup.jpeg" alt="TraCo Heritage Mug" style="width:100%">
+                        <div class="container-work">
+                            <h2>TraCo Heritage Mug<span class="nameteam"></span></h2>
+                            <p class="title">Experience the essence of Vietnam with our Heritage Mug,.</p>
+                            <p></p><a href="https://www.youtube.com/@macool18/streams" target="_blank"><button
+                                    class="button">View</button></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-xl-3">
+                    <div class="card-team">
+                        <img src="img/tc-merchandise/merchandise-tmbler.jpeg" alt="TraCo Heritage Tmbler
+                        " style="width:100%">
+                        <div class="container-work">
+                            <h2>TraCo Heritage Tmbler
+                                <span class="nameteam"></span>
+                            </h2>
+                            <p class="title">Find tranquility in every sip with our Heritage Tumbler, </p>
+                            <p></p><a href="https://www.youtube.com/@macool18/streams" target="_blank"><button
+                                    class="button">View</button></a></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <br>
+    <span class="clear-space"></span>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <!-- Section Titile -->
+                <div class="col-md-12 wow animated fadeInLeft" data-wow-delay=".2s">
+                    <h1 class="section-title" style="text-align: center; margin-bottom: 50px; "><span
+                            class="fw-bold">Contact Us</span></h1>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Section Titile -->
+                <div class="col-md-6 mt-3 contact-widget-section2 wow animated fadeInLeft" data-wow-delay=".2s">
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                        distribution of letters, as opposed to using Content.</p>
+
+                    <div class="find-widget">
+                        Company: <a href="https://hostriver.ro">HostRiver</a>
+                    </div>
+                    <div class="find-widget">
+                        Address: <a href="#">456 Serangoon Road, Singapore, Singapore</a>
+                    </div>
+                    <div class="find-widget">
+                        Phone: <a href="#">+ 879-890-9767</a>
+                    </div>
+
+                    <div class="find-widget">
+                        Website: <a href="/index.htm">www.traco.com</a>
+                    </div>
+                    <div class="find-widget">
+                        Program: <a href="#">Mon to Sat: 09:30 AM - 10.30 PM</a>
+                    </div>
+                </div>
+                <!-- contact form -->
+                <div class="col-md-6 wow animated fadeInRight" data-wow-delay=".2s">
+                    <form class="shake" role="form" method="post" id="contactForm" name="contact-form"
+                        data-toggle="validator">
+                        <!-- Name -->
+                        <div class="form-group label-floating">
+                            <label class="control-label" for="name">Name</label>
+                            <input class="form-control" id="name" type="text" name="name" required
+                                data-error="Please enter your name">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <!-- email -->
+                        <div class="form-group label-floating">
+                            <label class="control-label" for="email">Email</label>
+                            <input class="form-control" id="email" type="email" name="email" required
+                                data-error="Please enter your Email">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <!-- Subject -->
+                        <div class="form-group label-floating">
+                            <label class="control-label">Subject</label>
+                            <input class="form-control" id="msg_subject" type="text" name="subject" required
+                                data-error="Please enter your message subject">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <!-- Message -->
+                        <div class="form-group label-floating">
+                            <label for="message" class="control-label">Message</label>
+                            <textarea class="form-control" rows="3" id="message" name="message" required
+                                data-error="Write your message"></textarea>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <!-- Form Submit -->
+                        <div class="form-submit mt-5">
+                            <button class="btn btn-common bg-success" type="submit" id="form-submit"><i
+                                    class="material-icons mdi mdi-message-outline text-warning"></i> Send
+                                Message</button>
+                            <div id="msgSubmit" class="h3 text-center hidden"></div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <span class="clear-space"></span>
+
+    <footer>
+        <div class="footer">
+            <div class="button-footer">
+                <button class="button-footer-scroll-up">
+                    <a href="#home" id="banner">
+                        <i class="fa fa-arrow-up"></i>
+                    </a>
+                </button>
+            </div>
+            <div class="footer">&copyPowered by​​
+                <a href="index.htm" class="footer2">
+                    <span class="footer2">
+                        ​​ TraCo 2024
+                    </span>
+                </a>
+                <p>456 Serangoon Road, Singapore, Singapore(SG) </p>
+            </div>
+            <div class="socail-media">
+                <a href="https://www.facebook.com/people/TraCo/100095034281285/">
+                    <i class="fa fa-facebook-official" class="socail-media-a"></a></i>
+                <a href="https://www.instagram.com/traco_3010/">
+                    <i class="fa fa-instagram" class="socail-media-a"></a></i>
+                <a href="https://www.youtube.com/channel/UCbBOwAC6N-2WFHPeD1J1c8A">
+                    <i class="	fa fa-youtube-play " class="socail-media-i"></i></a>
+                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FTraCo0301">
+                    <i class="fa fa-twitter " class="socail-media-i"></i></a>
+                <a
+                    href="https://www.pinterest.com/traco0301/?invite_code=71fc4e60ca0446578c30ac9f6a1d9d19&sender=1043216838592496998">
+                    <i class="fa fa-pinterest " class="socail-media-i"></i></a>
+                <a href="https://www.tiktok.com/@traco0301?_t=8jSAsqvvh6P&_r=1">
+                    <i class="  fa fa-tumblr " class="socail-media-i"></i></a>
+
+            </div>
+
+        </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
